@@ -5,6 +5,7 @@ const assert = require('assert')
 before(async function () {
     console.log('\nGlobal before: { \n   this is the global before function. \n   Use the global before for setting up before ALL tests run. \n   An example would be setting up servers. \n }\n')
     console.log('This is what really needs to go in');
+    console.log('This is another change I should have gotten');
 })
 
 beforeEach(async function () {
