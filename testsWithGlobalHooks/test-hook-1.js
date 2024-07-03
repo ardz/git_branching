@@ -10,6 +10,7 @@ describe('[DESCRIBE] adding numbers together works', function() {
         console.log('\nthis is the before hook within the "test-hook-1.js" file\n')
         console.log('i want to add this to main')
         console.log('and i want to add this to main')
+        console.log('why is this happening')
     })
 
     beforeEach(function () {
